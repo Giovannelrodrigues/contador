@@ -1,0 +1,42 @@
+
+body {
+    background: rgb(27, 26, 26);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.wrapper {
+    color: #fff;
+    text-align:center;
+}
+p{
+  font-size:4em;
+}
+
+button{
+    background:transparent;
+    color:#fff;
+    border: solid 1px #fff;
+    cursor:pointer;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    margin: 10px;
+    transition: background-color, 1s;
+}
+
+button:hover{
+    background-color: teal;
+}
+
+
+
+
+
+
+
+
